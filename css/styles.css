@@ -294,16 +294,16 @@ a{
 /* What we do style*/
 .occupation{
     display: inline-block;
-    justify-content: space-between;
     align-items: center;
-    max-width: 100%;
-    height: auto;
+
 
 }
 
 .occupation__images{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
@@ -322,6 +322,7 @@ a{
     position: relative;
     overflow: hidden;
     margin-right: 30px;
+   
 }
 
 .thumb > .label{
