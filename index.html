@@ -40,7 +40,7 @@
     <section class="hero-section">
         <div class="section">
         <h1 class="hero-section__title">EFFECTIVE SOLUTIONS FOR<br > YOUR BUSINESS</h1>
-        <button class="header__requesting button" type="button">Request our service</button>   
+        <button data-modal-open class="header__requesting button" type="button">Request our service</button>   
 </div>
 </section>
     
@@ -86,9 +86,16 @@
     <div class="section" style="padding-top: 0;">
     <h2 class="occupation__title">What we do</h2>
     <div class="occupation__images">
+        <div class="thumb">
         <img class="occupation__image"  src="./images/img-1.jpg"  alt="person working at pc" width="370" height="294">
+            <p class="label">Desktop Apps</p> </div>
+
     <img class="occupation__image"  src="./images/img-2.jpg"  alt="person working with mobile phone and pc" width="370" height="294">
+   <p class="">Mobile Apps</p>
+   
     <img class="occupation__image" src="./images/img-3.jpg"  alt="person using tablet" width="370" height="294">
+   <p class="">Design Solution</p>
+
 </div>
 </div>
 </section>
@@ -315,6 +322,14 @@
 </div>
     </footer>
 </div>
+
+<div data-modal class="is-hidden">
+<div data-modal-content>
+<button data-modal-close type="button">X</button>
+</div>
+</div>
+
+<script src="./modal.js"></script>
+
 </body>
 </html>
-
